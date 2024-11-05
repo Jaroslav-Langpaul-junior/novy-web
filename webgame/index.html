@@ -144,14 +144,14 @@
     document.addEventListener('keydown', (e) => {
       if (e.key === ' ') {
         if (dino.grounded) {
-          dino.velocityY = -15;
+          dino.velocityY = -10;
           dino.jumping = true;
         }
       }
     });
 
     // Start the game loop
-    gameLoop(<li><a href="webgame/index.html">Restart</a></li>);
+    gameLoop();
   </script>
 </body>
 </html>
